@@ -1,1 +1,1 @@
-# Assigment_DicodingWeb
+# Assigment_CourseWeb
