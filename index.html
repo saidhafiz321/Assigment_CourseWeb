@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Submission Dicoding</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Menu 1</a></li>
+          <li><a href="#">Menu 2</a></li>
+          <li><a href="#">Menu 3</a></li>
+        </ul>
+      </nav>
+      <h1>Website Title</h1>
+    </header>
+    <main>
+      <article>
+        <h2>Article Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id tortor massa. Nam sit amet urna quam. Sed ut mauris velit. Duis condimentum rutrum sapien, vel tempor ipsum malesuada at. Nullam cursus consectetur augue ut ultricies. </p>
+      </article>
+      <aside>
+        <h2>Biodata Diri</h2>
+        <img src="foto.jpg" alt="Foto Diri">
+        <p>Nama: Said Hafiz Ilyas</p>
+        <p>Email: saidhafiz321@gmail.com</p>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy; 2023 Dicoding</p>
+    </footer>
+    <script>
+        const submenu = document.querySelectorAll('.submenu');
+      
+        submenu.forEach((el) => {
+          el.style.display = 'none';
+          el.parentElement.addEventListener('click', () => {
+            el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+          });
+        });
+      </script>
+  </body>
+</html>
